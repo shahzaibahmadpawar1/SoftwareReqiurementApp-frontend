@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { pagesApi, functionalitiesApi } from '../../services/api';
-import { Page, Functionality } from '../../types';
+import type { Page, Functionality } from '../../types';
 import AddPageModal from '../modals/AddPageModal';
 import AddFunctionalityModal from '../modals/AddFunctionalityModal';
 import './Tabs.css';
@@ -185,8 +185,8 @@ const PagesTab = ({ projectId }: PagesTabProps) => {
                                                 </div>
                                                 <div className="flex gap-sm items-center">
                                                     <span className={`badge ${func.type === 'button' ? 'badge-primary' :
-                                                            func.type === 'form' ? 'badge-success' :
-                                                                'badge-warning'
+                                                        func.type === 'form' ? 'badge-success' :
+                                                            'badge-warning'
                                                         }`}>
                                                         {func.type}
                                                     </span>

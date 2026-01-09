@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { projectsApi } from '../services/api';
-import { Project } from '../types';
+import type { Project } from '../types';
 import AddProjectModal from '../components/modals/AddProjectModal';
 import './ProjectList.css';
 

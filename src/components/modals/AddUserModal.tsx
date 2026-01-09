@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { usersApi } from '../../services/api';
-import { RequirementUser, Page, Functionality } from '../../types';
+import type { RequirementUser, Page, Functionality } from '../../types';
 
 interface AddUserModalProps {
     projectId: number;

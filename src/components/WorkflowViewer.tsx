@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import ReactFlow, {
-    Node,
-    Edge,
+    type Node,
+    type Edge,
     addEdge,
-    Connection,
+    type Connection,
     useNodesState,
     useEdgesState,
     Controls,
@@ -11,7 +11,7 @@ import ReactFlow, {
     MiniMap,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
-import { Workflow, RequirementUser, Page, Functionality } from '../types';
+import type { Workflow, RequirementUser, Page, Functionality } from '../types';
 import { usersApi, pagesApi, functionalitiesApi, workflowsApi } from '../services/api';
 import './WorkflowViewer.css';
 

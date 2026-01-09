@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { workflowsApi } from '../../services/api';
-import { Workflow } from '../../types';
+import type { Workflow } from '../../types';
 
 interface AddWorkflowModalProps {
     projectId: number;

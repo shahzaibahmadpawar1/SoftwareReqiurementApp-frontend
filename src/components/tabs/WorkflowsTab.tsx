@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { workflowsApi } from '../../services/api';
-import { Workflow } from '../../types';
+import type { Workflow } from '../../types';
 import AddWorkflowModal from '../modals/AddWorkflowModal';
 import WorkflowViewer from '../WorkflowViewer';
 import './Tabs.css';

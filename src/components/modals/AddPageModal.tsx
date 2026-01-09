@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { pagesApi } from '../../services/api';
-import { Page } from '../../types';
+import type { Page } from '../../types';
 
 interface AddPageModalProps {
     projectId: number;

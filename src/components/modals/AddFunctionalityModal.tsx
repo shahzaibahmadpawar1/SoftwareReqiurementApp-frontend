@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { functionalitiesApi } from '../../services/api';
-import { Functionality, FieldDefinition } from '../../types';
+import type { Functionality, FieldDefinition } from '../../types';
 
 interface AddFunctionalityModalProps {
     pageId: number;

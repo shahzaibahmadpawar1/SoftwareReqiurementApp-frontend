@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { projectsApi } from '../services/api';
-import { Project } from '../types';
+import type { Project } from '../types';
 import './Layout.css';
 
 const Sidebar = () => {

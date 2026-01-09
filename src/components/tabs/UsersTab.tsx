@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { usersApi, pagesApi, functionalitiesApi } from '../../services/api';
-import { RequirementUser, Page, Functionality } from '../../types';
+import type { RequirementUser, Page, Functionality } from '../../types';
 import AddUserModal from '../modals/AddUserModal';
 import './Tabs.css';
 

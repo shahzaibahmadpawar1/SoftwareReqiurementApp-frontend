@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { projectsApi } from '../../services/api';
-import { Project } from '../../types';
+import type { Project } from '../../types';
 
 interface AddProjectModalProps {
     onClose: () => void;

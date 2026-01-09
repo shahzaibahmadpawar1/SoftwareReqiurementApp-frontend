@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { projectsApi } from '../services/api';
-import { Project } from '../types';
+import type { Project } from '../types';
 import UsersTab from '../components/tabs/UsersTab';
 import PagesTab from '../components/tabs/PagesTab';
 import WorkflowsTab from '../components/tabs/WorkflowsTab';
