@@ -28,7 +28,7 @@ const PagesTab = ({ projectId }: PagesTabProps) => {
 
             // Load functionalities for each page
             const pagesWithFuncs = await Promise.all(
-                pagesData.map(async (page) => {
+                pagesData.map(async (page: Page) => {
                     const funcRes = await functionalitiesApi.getByPage(page.id);
                     return { ...page, functionalities: funcRes.data };
                 })

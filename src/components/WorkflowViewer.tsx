@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import ReactFlow, {
     type Node,
-    type Edge,
     addEdge,
     type Connection,
     useNodesState,
